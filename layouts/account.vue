@@ -1,6 +1,9 @@
 <template>
     <div class="Main">
         <Header />
+        <div class="Content">
+            <slot />
+        </div>
 
         <nav>
             <ul>
@@ -8,12 +11,6 @@
                 <li><a href="">View Profile</a></li>
             </ul>
         </nav>
-
-        <div class="Content">
-            <slot />
-        </div>
-
-        <Header />
     </div>
 </template>
 
@@ -24,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-.Content {
+.Main {
     min-height: 400px;
     background: #c97777;
 }

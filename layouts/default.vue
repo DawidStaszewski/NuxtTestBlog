@@ -1,11 +1,14 @@
 <template>
     <div class="Main">
         <Header />
+
+        <div id="default">GDZIE JA JESTEM?=default.vue</div>
+
         <div class="Content">
             <slot />
         </div>
 
-        <Header />
+
     </div>
 </template>
 
@@ -16,8 +19,8 @@ export default {
 </script>
 
 <style scoped>
-.Content {
+.Main {
     min-height: 400px;
-    background: #c97777;
+    background: #8377c9;
 }
 </style>

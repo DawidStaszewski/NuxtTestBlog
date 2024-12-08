@@ -4,6 +4,7 @@
 
 <template>
     <header>
+
         <div>
             <NuxtLink to="/">Blog</NuxtLink>
         </div>
@@ -16,7 +17,7 @@
                     <NuxtLink to="/blog">Blog</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/blog">Blog</NuxtLink>
+                    <NuxtLink to="/test">Test</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink to="/Account/profile">Profile</NuxtLink>
@@ -27,10 +28,16 @@
 
             </ul>
         </nav>
+
     </header>
 
 </template>
 
 
 
-<style></style>
+<style scoped>
+header {
+    min-height: 200px;
+    background: #77c98b;
+}
+</style>
