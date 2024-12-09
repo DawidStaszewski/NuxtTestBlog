@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .Main {
-    min-height: 400px;
+
     background: #c97777;
 }
 </style>
